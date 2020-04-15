@@ -16,6 +16,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    filter: grayscale(100%);
 }
 
 #login input[type = email], #login input[type = password] {
@@ -24,7 +25,7 @@ body {
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 1.5px solid #f5f5f5;
+	border: 1.3px solid #2F4858;
 	padding: 14px 10px;
 	width: 350px;
 	height: 30px;
@@ -34,13 +35,14 @@ body {
 }
 
 #login input[type = email]:focus, #login input[type = password]:focus{
-	border-color: #4a7c5d;
+	border-color: #F6AE2D;
 }
 
 #login input[type = submit] {
 	border: none;
 	border-radius: 10px;
-	background-color: #4a7c5d;
+    background-color: #2F4858;
+    color: #ffff;
 	width: 350px;
 	height: 25px;
 	display: block;
@@ -64,30 +66,36 @@ h2 {
 }
 
 a {
-	color: #4a7c5d;
+	color: #F6AE2D;
 	text-decoration: none;
 }
 
 
 @media only screen and (min-width: 1000px) {
+    body {
+        background-image: url('protest.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     #left-box {
-        width: 60%;
+        width: 65%;
         min-height: 100%;
         float: left;
-        background-image: url('earth2.jpg');
+        //background-image: url('protest.jpg');
         background-size: cover;
         background-repeat: no-repeat;
     }
     #login img {
         width: 25%;
         height: 25%;
-        /*filter: grayscale(100%);*/
+        filter: grayscale(100%);
     }
     #right-box {
-        width: 40%;
+        width: 35%;
         min-height: 100%;
         float: right;
-        background: white;
+        background: #f5f5f5;
+        opacity: 0.95;
     }
 
     h2 {
@@ -96,13 +104,40 @@ a {
         color: #282828;
     }
 
+    .home {
+        width: 70px;
+        height: 70px;
+        border-radius: 24px;
+        background-color: #f5f5f5;
+        opacity: 0.9;
+        color: #ffff;
+        position: relative;
+        top: 50px ;
+        left: 50px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .home a {
+        width: 70px;
+        height: 70px;
+        border-radius: 24px;
+        color: #2F4858;
+    }
+
+    .home a:hover {
+        color: #F6AE2D;
+    }
+
+    .bi-house {
+        margin: 7px 5px 5px 5px;
+    }
 
     #login{
-        background: white;
+        background: #f5f5f5;
         position: relative;
         width: auto;
         text-align: center;
-        margin-top: 70px;
+        margin-top: 70px;  
     }
     
     #login input[type = email], #login input[type = password] {
@@ -111,7 +146,7 @@ a {
         display: block;
         margin: 20px auto;
         text-align: center;
-        border: 1.5px solid #f5f5f5;
+        border: 1.3px solid #2F4858;
         padding: 14px 10px;
         width: 350px;
         height: 30px;
@@ -121,13 +156,14 @@ a {
     }
     
     #login input[type = email]:focus, #login input[type = password]:focus{
-        border-color: #4a7c5d;
+        border-color: #F6AE2D;
     }
     
     #login input[type = submit] {
         border: none;
         border-radius: 10px;
-        background-color: #4a7c5d;
+        background-color: #2F4858;
+        color: #ffff;
         width: 350px;
         height: 25px;
         display: block;
@@ -136,10 +172,15 @@ a {
         text-align: center;
         margin: 20px auto;
         outline: none;
+        
     }
     
     #login input[type = submit]:hover {
-    background-color: #3b634a;
+        background-color: #F6AE2D;
+    }
+    
+    #signup a {
+        color: #F6AE2D;
     }
 
     #signup {	

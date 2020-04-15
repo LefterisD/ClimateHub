@@ -1,78 +1,75 @@
-html,body{
-   height:100%;
-}
-body {
-	font-family: 'Quicksand', sans-serif !important;
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif !important;
 	background: #f5f5f5;
 }
+
+/*------------------------navbar----------------------*/
 .navbar-nav {
-	margin-left: 15px;
-	font-weight: 300;
+	margin-left: 10px;
+    font-weight: 300;
 }
 
-.carousel-image {
-	height: 700px;
-}
-.my-carousel {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 700px;
-}
-.carousel-item {
-	height: 700px;
-}
 .my-nav {
 	z-index: 999;
-	width: 100%;
-	background: #2f4858; 
+	max-width: 100%;
+	background: #2F4858; 
 }
-.container {
-	color: black;
+
+#mainNav{
+	font-size: 22px;
 }
-.imagelogo {
-	position: absolute;
-	float: left;
+
+#mainNav .nav-link {
+	color: #ffffff;
 }
-.container #imagelogo {
-	width: 500px;
-	height: 500px;
-	//filter: grayscale(100%);
-}
-.container .paragraph {
-	text-align: center;
-	padding-top: 100px;
-}
-.container .paragraph h1{
-	color: #5e7747;
-	text-align: center;
-	padding-bottom: 50px;
-	font-weight: 500;
-}
-.page-footer {
-	color: white;
-	background: #2f4858;
-}
-.footer-links {
+
+#mainNav .nav-link:hover {
 	color: #F6AE2D;
 }
-.footer-links:hover {
-	color: black;
-	text-decoration: none;
+
+#mainNav .logo {
+	filter: grayscale(100%);
 }
-.page-footer .row {
+
+.dropdown-menu {
+    background: #2F4858 !important; 
+    text-align: center !important;
+    font-size: 20px !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover{
+    color: #F6AE2D !important;
+    background-color: #2F4858 !important; 
+}
+
+/*------------------------footer----------------------*/
+.page-footer {
+	background: #2f4858;
+    color: white;
+    width: 100%;
+}
+.page-footer .row  {
 	text-align: center;
 }
-.ontop{
-	width: 100%;
-	height: 700px;
-	position: absolute;
-	z-index: 500;
+.footer-links {
+	color: #ffffff;
 }
-.ontopbutton {
-	position: absolute;
-	z-index: 998;
+.footer-links:hover {
+	color: #F6AE2D;
+	text-decoration: none;
 }
+
+.orange{
+    color: #F6AE2D;
+}
+
+/*------------------------scroll button----------------------*/
 .scrolltotop {
 	width: 40px;
 	height: 40px;
@@ -89,21 +86,19 @@ body {
 .scrolltotop:hover{
 	color: black;
 }
-#mainNav{
-	font-size: 20px;
+
+
+.col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
-#mainNav .nav-link {
-	color: white;
-}
 
-#mainNav .nav-link:hover {
-	color: #F6AE2D;
-}
-
-#mainNav .logo {
-	filter: grayscale(100%);
-	
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 
@@ -191,6 +186,3 @@ body {
 
 }
 
-.this {
-	margin-bottom: 500px;
-}
