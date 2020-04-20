@@ -229,7 +229,8 @@ body,html{
     }
 
     .jumbo-right-col img {
-        width: 85% ;
+        width: 500px;
+        height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;

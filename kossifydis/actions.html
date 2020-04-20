@@ -17,7 +17,7 @@
 			<img  class="logo" src="../logowhite.png" width="50px" height="50px">
 		</a>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
-			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navLinks">
 			<ul class="navbar-nav">
@@ -140,7 +140,7 @@
 	</div>
 	</div>
 	
-	<a href="#" class="scrolltotop"><i class="fas fa-arrow-up"></i></a>
+	
 	<footer class="page-footer font-small blue pt-4">
 		<div class="container-fluid text-center text-md-left">
 		  <div class="row ">
@@ -160,6 +160,24 @@
 		  <a class="footer-links" href="#"> AKLPTeam.com</a>
 		</div>
 	  </footer>
+	  <a href="#" class="scrolltotop"><i class="fas fa-arrow-up"></i></a>
+	  <script>
+		  $(document).ready(function(){
+	//check if window is at the top
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrolltotop').fadeIn();
+        } else {
+            $('.scrolltotop').fadeOut();
+        }
+    });
+    //scroll
+    $('.scrolltotop').click(function(){
+        $('html, body').animate({scrollTop : 0},500);
+    });
+
+});
+	  </script>
 	  <script>
 	$(document).ready(function(){
 		$(".more").hide();
