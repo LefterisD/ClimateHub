@@ -116,12 +116,12 @@ body,html{
 .jumbo-left-col {
     height: 600px;
     padding-top: 100px;
-    padding-left: 100px !important;
+    padding-left: 30px !important;
+    padding-right: 30px;
     padding-bottom: 100px;
 }
 
 .jumbo-right-col {
-    padding-left: 50px !important;
     display: none;
 }
 
@@ -133,7 +133,8 @@ body,html{
 
 .second {
     padding-top: 100px;
-    padding-left: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px;
 }   
 
 .third{
@@ -145,11 +146,7 @@ body,html{
     display: none;
 }
 
-.rightcol {
-    padding-right: 10px !important;
-    
-    margin: 0;
-}
+
 
 .link-list ul {
     height: 150px;
@@ -163,13 +160,17 @@ body,html{
     color: #F6AE2D;
 }
 
+.link-list  {
+    text-align: center;
+}
+
 .list{
     height: 150px;
     text-align: center;
     display: inline-block;
     width: 200px;
     border-radius: 12px;
-    margin-left: 90px;
+    margin: 0 auto;
 }
 
 .rightcol .list {
@@ -182,7 +183,7 @@ body,html{
 }
 
 .fifth{
-    padding-left: 100px;
+    padding-left: 50px;
     margin-bottom: 100px;
 }
 
@@ -191,6 +192,8 @@ body,html{
     color: black;
     padding-right: 10px;
     margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .phone {
@@ -229,7 +232,7 @@ body,html{
     }
 
     .jumbo-right-col img {
-        width: 500px;
+        width: 480px;
         height: auto;
         display: block;
         margin-left: auto;
@@ -266,7 +269,7 @@ body,html{
     }
     
     .link-list {
-        padding-left: 150px;
+        padding-left: 50px;
     }
 
     .link-list ul {

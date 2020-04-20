@@ -150,6 +150,10 @@ button{
 	border-radius: 10px;
 	padding: 10px;
 }
+
+button:focus {
+	outline: 0;
+}
 .readmore:hover{
 	color: #F5F5F5;
 }
