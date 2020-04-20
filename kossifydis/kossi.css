@@ -100,7 +100,7 @@ body,html{
     box-shadow: none;
 }
 
-
+/*----------------CSS code for cards----------------*/
 	
 .card {
 	border-radius :10px;
@@ -142,6 +142,7 @@ img{
 .more {
 	display: none;
 }
+
 button{
 	font-size: 15px;
 	color: #F5F5F5; 
@@ -160,4 +161,21 @@ button{
 		text-align: right;
 		margin-top: 60px;
 		font-weight: 600;
+		margin-bottom: 10px;
 	}
+
+/*----------------CSS code for tablets or landscape in mobiles ----------------*/
+@media only screen and (max-width: 1024px){
+	#mainNav{
+		font-size: 20px;
+	}
+	.titlesec{
+    	font-size: 24px;
+    	text-align:left;
+    	border-left:3px solid #F6AE2D;
+    	border-right: 3px solid #F5F5F5; 
+    	margin-left: 12px;
+		font-weight: 600;
+    }
+    
+}
