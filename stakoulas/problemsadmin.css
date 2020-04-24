@@ -113,7 +113,7 @@ body,html{
 	width: 100%;
 	position: fixed;
 	z-index: 999;
-	border-top: 2px solid #e39b19;
+	border-top: 3px solid #e39b19;
 }
 
 .links{
@@ -131,6 +131,55 @@ body,html{
 .links:focus{
 	color: #F6AE2D;
 	text-decoration: none;
+}
+
+.add{
+	font-size: 18px;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.add:hover{
+	color: red;
+	text-decoration: none;
+}
+
+.remove{
+	font-size: 18px;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: 400;
+}
+
+.remove:hover{
+	color: red;
+	text-decoration: none;
+}
+
+.edit{
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: 400;
+	float: right;
+}
+
+.edit:hover{
+	color: red;
+	text-decoration: none;
+}
+
+.design{
+	border: 3px dashed black;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 40px;
 }
 
 .box{
@@ -155,23 +204,22 @@ body,html{
 }
 
 .info{
-	margin-top: 60px;
+	margin-top: 80px;
 }
 
 .images{
-	width: 80%;
-	height: 450px;
+	width: 750px;
+	height: 400px;
 	display: block;
  	margin-left: auto;
  	margin-right: auto;
- 	border-radius: 5px;
 }
 
 .text{
 	font-size: 18px;
-	margin-left: 90px;
-	margin-right: 90px;
-	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
 }
 
 .pread{
@@ -193,9 +241,9 @@ body,html{
 }
 
 .temp{
-	max-width: 49%;
+	width: 49%;
 	height: auto;
-	margin-right: 3px;
+	margin-right: 2px;
 	border-radius: 5px;
 }
 
@@ -204,19 +252,10 @@ body,html{
 	height: auto;
 }
 
-#ice{
-	width: 40%;
-	height: auto;
-	padding-left: 10px;
-	border-radius: 5px !important;
-	display: block;
+#icon{
+	display: none;
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1337px){
-	#ice{
-		display: none;
-	}
-}
 
 /*----------------CSS code for tablets or landscape in mobiles ----------------*/
 @media only screen and (max-width: 1024px){
@@ -235,7 +274,7 @@ body,html{
 		width: 100%;
 		position: fixed;
 		z-index: 999;
-		border-top: 2px solid #F6AE2D;
+		border-top: 3px solid #F6AE2D;
 	}
 
 	.links{
@@ -310,43 +349,34 @@ body,html{
 		color: black;
 		text-decoration: none;
 	}
-
-	.temp{
-		width: 80%;
-		height: auto;
-		margin-bottom: 10px;
-		margin-right: 0;
-		border-radius: 5px;
-	}
-
-	.co2{
-		width: 100%;
-		height: auto;
-	}
-
-	#ice{
-		display: none;
-	}
-
 }
 
 
 /*--------------------CSS code small changes for mobiles or tablets demendind on the screen--------------------------*/
 @media only screen and (min-width:767px) and (max-width:905px){
 	#mainNav{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	#mainNav .nav-link {
 	   padding-left: 0px;
     }
 
     .links{
-    	margin:15px;
+    	font-size: 16px;
+    	margin:10px;
     }
 
     .titlesec{
     	font-size: 24px;
+
     }
+
+    .temp{
+		width: 49%;
+		height: auto;
+		margin-right: 1px;
+		border-radius: 5px;
+	}
 }
 
 
@@ -374,7 +404,7 @@ body,html{
 	.titlesec{
 		border-bottom: 3px solid #F6AE2D;
 		border-right: none;
-		font-size: 26px;
+		font-size: 25px;
 		text-align: center;
 		font-weight: 600;
 	}
@@ -401,7 +431,7 @@ body,html{
 
 	.pread{
 		text-align: center;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	.readmore1,.readmore2,.readmore3,.readmore4{
@@ -417,4 +447,42 @@ body,html{
 		color: black;
 		text-decoration: none;
 	}
+
+	.temp{
+		width: 49%;
+		height: auto;
+		margin-right: 1px;
+		border-radius: 5px;
+	}
+
+	.remove{
+		font-size: 16px;
+		color: white;
+		background-color: black;
+		padding: 5px;
+		border-radius: 5px;
+		font-weight: 400;
+	}
+
+	#icon{
+		display: block;
+		font-size: 16px;
+		color: white;
+		background-color: black;
+		padding: 5px;
+		border-radius: 5px;
+		font-weight: 400;
+		float: left;
+		width: 8%;
+		margin-top: 30px;
+		text-align: center;
+		position: fixed;
+		z-index: 999;
+	}
+
+	#icon:hover{
+		text-decoration: none;
+		color: red;
+	}
+
 }

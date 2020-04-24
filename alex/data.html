@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" type="text/css" href="file:///C:/Users/AlexL/Desktop/css/bootstrap.min.css"></link>
 	<script type="text/javascript" src="file:///C:/Users/AlexL/Desktop/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="alex.css">
+	<link rel="stylesheet" type="text/css" href="data.css">
 	
 	 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<nav id="mainNav" class=" my-nav navbar  navbar-expand-md p-0">
+	<nav id="mainNav" class=" my-nav navbar  navbar-expand-md p-0 fixed-top">
 		<a href="#" class="navbar-brand ml-3 mb-1">
 			<img  class="logo" src="../logowhite.png" width="50px" height="50px">
 		</a>
@@ -48,9 +48,6 @@
 						</div>
 					</div>
 				</li>
-				<li class="nav-item pr-2">
-					<a href="../admin/users.html" class="nav-link">Admin</a>
-				</li>
 			</ul>
 		</div>
 		<!--PHP code!! If the user logs in then it should display a drop down -->
@@ -60,7 +57,10 @@
 					<a href="../login/login.html" class="nav-link">Log in</a>
 				</li>
 				<li class="nav-item pr-2">
-					<a href="../signup/signup.html" class="nav-link">Sign up</a
+					<a href="../signup/signup.html" class="nav-link">Sign up</a>
+				</li>
+				<li class="nav-item pr-2">
+					<a href="../admin/users.html" class="nav-link">Admin</a>
 				</li>
 				<!--
 				<li class="nav-item pr-2 dropdown">
@@ -70,7 +70,7 @@
 			        	<a class="dropdown-item" href="#">Log out</a>
 					</div>
 				</li>
-				-->
+			-->
 			</ul>       
 		</div>
 	</nav>
@@ -78,24 +78,23 @@
 
 
 	<div class="row no-gutters stl">
-		<div class="col-md-6 col">
-			<img class="image1" src="world.jpg" >
+		<div class="col-md-12 col">
+			<img class="rounded float-left image1" src="world.jpg" >
 			<a href="world.html">
 				<button id="#btnID1" class="btn1">
 					<a id="link_id1" class="myLink" href="../info_world/world.html">WORLD</a> 
 				</button>
 			</a>
-		</div>
-		<div class="col-md-6 col">
-			<img class="image2" src="info.jpg">
+			<img class="rounded float-left image2" src="info.jpg">
 			<a href="info.html">
 				<button id="#btnID2" class="btn2">
-					<!-- <a href="../info_world/info.html"><h1 id="header_id2" class="myh1">INFORMATION</h1></a> -->
 					<a id="link_id2" class="myLink" href="../info_world/info.html">INFORMATION</a> 
 				</button>
 			</a>
 		</div>
 	</div>
+
+
 
 	<!-- Footer -->
 	<footer class="page-footer font-small blue pt-4 this">
