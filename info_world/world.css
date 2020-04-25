@@ -3,6 +3,9 @@ body,html{
     margin: 0;
     font-family: 'Quicksand', sans-serif !important;
 	background: #f5f5f5;
+	height: 100%;
+	width: 100%;
+	flex-wrap: wrap;
 }
 
 /*------------------------navbar----------------------*/
@@ -104,25 +107,41 @@ body,html{
 
 .images{
 	width:100%;
-	height: 100%;
-	border-radius: 10%;
+	height: auto;
+	border-radius: 12px;
+	max-height: 40vh;
+	/*top:50%;*/
+
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	
+}
+
+@media only screen and (max-width : 700px) {
+    .images {
+    	visibility:hidden;
+    }
+     
 }
 
 .mainPart{
 	width:100%;
 	padding:0;
+	margin:0;
+	background-color: #f5f5f5;
 }
 
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("7.jpg");
-  height: 10%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("world2.jpg");
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  border-width: 110%;
   position: relative;
-  width:100%;
-  padding-top:15%;
 }
 
 .hero-text {
@@ -131,7 +150,20 @@ body,html{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #f5f5f5;
+  
+
+}
+
+.hero-text h1{
+	font-size:900%;	
+}
+
+@media only screen and (max-width : 700px) {
+    .hero-text h1 {
+        font-size: 530%;
+    }
+     
 }
 
 
@@ -140,25 +172,117 @@ body,html{
   	left: 50%;
 }
 
+
+
+
 .wbtns {
-	background-color: #33658a;
+	color: #f5f5f5;
+	background-color: #F6AE2D;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 15px;
 }
+
 
 .wbtns:hover {
-	background-color: #6289A6;
-	border-color: #6289A6;
+	color: #39576b;
 }
 
-.wbtns:click
 
-#more1 {
-	display:none;
+.rowz{
+	border-bottom-style:solid;
+	padding-top:5vh;
+	padding-bottom:5vh;
+	border-color: #2f2f40;
+	border-width: 3px;
+
 }
 
-#more2 {
-	display:none;
+@media only screen and (max-width : 700px) {
+    .rowz {
+        padding-top: 0vh;
+    }
+     
 }
 
-#more3 {
-	display:none;
+
+/*      DONE      */
+.headd h1 {
+	font-weight: bold;
+	color:#F6AE2D;
+	font-size:400%;
+}
+
+@media only screen and (max-width : 700px) {
+    .headd h1{
+        font-size:200%;
+    }  
+}
+
+
+.headd p {
+	text-align: center;
+	font-size: 18px;
+	color: #f5f5f5;
+}
+
+@media only screen and (max-width : 700px) {
+    .headd p{
+        font-size:100%;
+    }  
+}
+
+
+@media only screen and (max-width : 700px) {
+    .headd {
+        margin-bottom: 20vh;
+    }
+     
+}
+
+/*      DONE      */
+
+.lastRow{
+	padding-top:5vh;
+	padding-bottom:5vh;
+}
+
+@media only screen and (max-width : 700px) {
+    .lastRow {
+        padding-top: 0vh;
+    }
+     
+}
+
+.theText {
+	font-weight: bold;
+	background-color: rgba(163, 194, 227, 0.25);
+    border-radius: 12px;
+    padding: 0vh 3vh 3vh 3vh;
+    margin-top: 2vh;
+}
+
+@media only screen and (max-width : 700px) {
+    .theText {
+        margin-top: 3vh;
+    }
+     
+}
+
+.subjHeader{
+	background-color: #39576b;
+	padding:2vh;
+	border-width:5px;
+	border-radius: 12px;
+	font-weight: bold;
+	margin: 0 auto;
+    display: table;
+    color: #f5f5f5;
+}
+
+@media only screen and (max-width : 700px) {
+    .subjHeader {
+        margin-top: 9vh;
+    }
+     
 }

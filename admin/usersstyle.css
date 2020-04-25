@@ -121,7 +121,7 @@ td {
 .column1{
     text-align: start;
     padding: 15px 8px;
-    width: 10%;
+    width: 20%;
 }
 
 .column2{
@@ -142,7 +142,7 @@ td {
     text-align: center;
 }
 .column5 {
-    width: 20%;
+    width: 10%;
     padding: 15px 8px;
     text-align: center;
 }
@@ -157,6 +157,26 @@ td {
     background: #FFFFFF;
     padding: 0;
 }
+
+
+
+button{
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+    color: #7f7f7f;
+}
+
+button:hover{
+    color: #F6AE2D;
+}
+
+button:focus{
+    border: none;
+    background: #FFFFFF;
+    outline: none;
+}
+
 
 /*--------------------------form---------------------*/
 #hide{

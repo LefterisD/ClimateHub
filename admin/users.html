@@ -17,26 +17,16 @@
             <div class="collapse navbar-collapse" id="navLinks">
                 <ul class="navbar-nav">
                     <li class="nav-item pr-2">
-                        <a href="../HomePage/home.html" class="nav-link">Home</a>
+                        <a href="../stakoulas/problemsadmin.html" class="nav-link">Problems</a>
                     </li>
                     <li class="nav-item pr-2">
-                        <a href="../stakoulas/problems.html" class="nav-link">Problems</a>
+                        <a href="../kossifydis/AdminActions.html" class="nav-link">Actions</a>
                     </li>
                     <li class="nav-item pr-2">
-                        <a href="../kossifydis/actions.html" class="nav-link">Actions</a>
+                        <a href="../info_world/world.html" class="nav-link">World</a>
                     </li>
-                    <li class="nav-item pr-2 dropdown">
-                        <div class="btn-group">
-                            <a href="../alex/data.html" class="nav-link">Data</a>
-                              <a type="button" class="nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="sr-only">Toggle Dropdown</span>
-                              </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../info_world/world.html">World</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../info_world/info.html">Info</a>
-                            </div>
-                        </div>
+                    <li class="nav-item pr-2">
+                        <a href="../info_world/infoadmin.html" class="nav-link">Info</a>
                     </li>
                 </ul>
             </div>
@@ -44,15 +34,9 @@
             <div class="collapse navbar-collapse justify-content-end" id="navLinks">
                 <ul class="navbar-nav">
                     <li class="nav-item pr-2">
-                        <a href="../login/login.html" class="nav-link">Log in</a>
+                        <a href="#" class="nav-link">Admin</a>
                     </li>
-                    <li class="nav-item pr-2">
-                        <a href="../signup/signup.html" class="nav-link">Sign up</a>
-                    </li>
-                    <li class="nav-item pr-2">
-                        <a href="../admin/users.html" class="nav-link">Admin</a>
-                    </li>
-                    <!-- 
+                    <!--
                     <li class="nav-item pr-2 dropdown">
                         <a class="nav-link dropdown-toggle nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username
                         </a>
@@ -60,7 +44,7 @@
                             <a class="dropdown-item" href="#">Log out</a>
                         </div>
                     </li>
-                -->
+                    -->
                 </ul>       
             </div>
         </nav>
@@ -73,25 +57,27 @@
                     <p>Users: <span id="number">125</span> </p>
                 </div>
                 <div class="col-lg-3 box ">
-                    <p><a href="#hide" onclick="myfunction()">Add New User</a></p>
+                    <!--<p><a href="#hide" onclick="myfunction()">Add New User</a></p>-->
+                    <p><button onclick="myfunction()">Add New User</button></p>
                 </div>
                 <div id="searchp" class="col-lg-3 box">
                     <p><svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
                         <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
-                      </svg><a href="#" onclick="searchboxtoggle()">Search User</a></p>
+                      </svg><button onclick="searchboxtoggle()"> Search User</button>
+                      <!--<a href="#" onclick="searchboxtoggle()">Search User</a></p>-->
                 </div>
             </div>
             <div class="row justify-content-center" id="hidesearch">
-                <div class="col-md-9 " id="searchbox">
+                <div class="col-lg-9 " id="searchbox">
                     <input type="text" name="search" placeholder="UserName">
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-9 upper">
+                <div class="col-lg-9 upper">
                     <table id="uppertable">
                             <tr class="tablehead">
-                                <th class="column1">Id</th>
+                                <th class="column1">UserName</th>
                                 <th class="column2">First Name</th>
                                 <th class="column3">Last Name</th>
                                 <th class="column4">Email</th>
@@ -101,11 +87,11 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-9 box3 scrollable">
+                <div class="col-lg-9 box3 scrollable">
                     <table>
                         <tbody> 
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -118,7 +104,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -131,7 +117,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -144,7 +130,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -157,7 +143,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -170,7 +156,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -183,7 +169,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -196,7 +182,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -209,7 +195,7 @@
                                   </svg></a></td>
                             </tr>
                             <tr>
-                                <td class="column1">1</td>
+                                <td class="column1">lef</td>
                                 <td class="column2">Lefteris</td>
                                 <td class="column3">Dimitriou</td>
                                 <td class="column4">lefis1998@hotmail.com</td>
@@ -226,7 +212,7 @@
                 </div>
             </div>
             <div class="row justify-content-center " id="hide">
-                <div class="col-md-9 addnewuserbox">
+                <div class="col-lg-9 addnewuserbox">
                     <form id="adduser">
                         <label for="firstname">FirstName</label>
                         <input type="text" id="firstname" name="firstname">

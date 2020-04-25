@@ -17,7 +17,7 @@
 			<img  class="logo" src="../logowhite.png" width="50px" height="50px">
 		</a>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
-			<span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
+			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navLinks">
 			<ul class="navbar-nav">
@@ -54,10 +54,6 @@
 				<li class="nav-item pr-2">
 					<a href="../signup/signup.html" class="nav-link">Sign up</a>
 				</li>
-				<li class="nav-item pr-2">
-					<a href="../admin/users.html" class="nav-link">Admin</a>
-				</li>
-				<!-- 
 				<li class="nav-item pr-2 dropdown">
 					<a class="nav-link dropdown-toggle nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username
 					</a>
@@ -65,7 +61,6 @@
 			        	<a class="dropdown-item" href="#">Log out</a>
 					</div>
 				</li>
-			-->
 			</ul>       
 		</div>
 	</nav>
@@ -73,10 +68,10 @@
 
 
 
-	<div class="col-sm-12 text-left mainPart"> 
+	<div class="col-sm-12 text-left mainPart" style="height: 40vh"> 
 		<div class="hero-image" >
 		  <div class="hero-text">
-		    <h1 style="font-size:100px">WORLD</h1>
+		    <h1>WORLD</h1>
 	  		</div>
 		</div>
 	</div>
@@ -84,128 +79,120 @@
 	<div class="container-fluid text-center no-gutters" > 
 
 	<!-- Some stuff about this section -->
-	<div id="#first" class="jumbotron row" style="background-color: #DFDFDF;">
+	<div id="#first" class="jumbotron row" style="background-color: #39576b; height:60vh;">
       	<div class="col-sm-1"></div>
-      	<div class="col-sm-10">
-      		<p style="text-align: center;"><h2>----------- Some things about this part -----------</h2><br>sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-      			incididunt ut labore et dolore magna aliqua. Ut enim ad 
-	  		minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat 
-			cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do 
-			eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-			sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-      			incididunt ut labore et dolore magna aliqua. Ut enim ad 
-	  		minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat 
-			cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+      	<div class="col-sm-10 headd">
+  			<h1>Climate Change Over The World</h1><br>
+      		<p>
+      			Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted and trees are flowering sooner.
+      		Effects that scientists had predicted in the past would result from global climate change are now occurring: loss of sea ice, accelerated sea level rise and longer, more intense heat waves
 			
 			.</p>
       	</div>
 	</div>
+	<!--   HERE -->
 
-	    <div class="row content">
+	    <div class="row content" style="flex-wrap:nowrap;">
     	
     	<!-- First Column -->
-    	<div class="col-sm-1 sidenav ">
-    	</div>
-    	
+    	<div class="col-sm-1 sidenav "></div>
     	<!-- Second Column -->
-	    <div class="col-sm-9 text-left mainPart"> 
-		      <br><br><br>
-
-		      <div class="row ">
+	    <div class="col-sm-10 text-left mainPart"> 
+		     
+		      <div class="row rowz" >
 		      	<div class="col-sm-6">
-		      		<img class="images" src="9.jpg">
+		      		<img class="images" src="GHGemmissions.png">
 		      	</div>
 		      	<div class="col-sm-6">
-		      		<p class="read-more-wrap" style="text-align: center;">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-			  		minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat 
-					cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do 
-					eiusmod tempor
+		      		<h3 class="subjHeader">GHG Emission</h3>
+
+		      		<p class="read-more-wrap theText" style="text-align: center;">
+						<br>
+		      			Who estimates that outdoor and indoor air pollution kill 6.5 million people yearly, making polluted air the most deadly consequence of environmental degradation. Air pollution is one of the most pernicious threats to health because it is so pervasive. No one can escape it. Everyone has to breathe. When breathing becomes deadly, entire cities become a hazard to 
 					<span id="dots1">...</span>
-					<span id="more1">
+
+
+					<span id="more1" style="display:none;">
 						
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-					nisi ut aliquip ex ea commodo consequat  exercitation ullamco laboris 
-					nisi ut aliquip ex ea commodo consequa.
+					health. Though cities are a principal concern, air pollution easily travels hundreds of kilometres beyond cities to endanger health in surrounding areas. Parts of densely-populated Asia are nearly completely shrouded year-round by a lingering haze of polluted air.
 
 					</span>
+
 					</p>
-
-					<div style="text-align:center;"><button type="button" onclick="myFunction1()" id="myBtn1" class="btn btn-info wbtns">Read more</button></div>
-
+					<div style="text-align:center;"><button type="button" id="myBtn" class="btn wbtns" onClick="myFunction(this.id,'dots1','more1');">READ MORE</button></div>
 					
 		      	</div> 
 		      </div>
 
-		      <br><br><br><br><br>
-		      <div class="row ">
+		      <div class="row rowz">
 		      	
 		      	<div class="col-sm-6 ">
-		      		<p class="read-more-wrap" style="text-align: center;">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-			  		minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat 
-					cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do 
-					eiusmod tempor
+		      		<h3 class="subjHeader">Renewable Energy</h3>
+		      		<p class="read-more-wrap theText" style="text-align: center;">
+					<br>
+		      		Energy use is changing fast. The shift to renewable sources, however, needs to happen faster, not just in power generation but in heating, buildings and transport, to check the rise in global temperatures.Renewables could supply four-fifths of the world’s electricity by 2050, massively 
+
 					<span id="dots2">...</span>
-					<span id="more2">
+					<span id="more2" style="display:none;">
 						
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-					nisi ut aliquip ex ea commodo consequat  exercitation ullamco laboris 
-					nisi ut aliquip ex ea commodo consequa.
+					cutting carbon emissions and helping to mitigate climate change. But solar and wind power have to be fully integrated, with sustainable bioenergy providing another key part of the mix.
+					All this means speeding up innovation in business and technology. Above it all, it means taking action to promote renewable energy today. 
 
 					</span>
 					</p>
 
-					<div style="text-align:center;"><button type="button" onclick="myFunction2()" id="myBtn2" class="btn btn-info wbtns">Read more</button></div>
+					<div style="text-align:center;"><button type="button" id="myBtn2" class="btn wbtns" onClick="myFunction(this.id,'dots2','more2');">READ MORE</button></div>
 		      	</div> 
 
 		      	<div class="col-sm-6">
-		      		<img class="images" src="8.jpg" style="float: right;">
+		      		<img class="images" src="RenewableEnergy.png" style="float: right;">
 		      	</div>
 
 		      </div>
-		      <br><br><br><br><br>
 
-		      <div class="row ">
+
+		      <div class="row lastRow">
 		      	<div class="col-sm-6">
-		      		<img class="images" src="6.jpg">
+		      		<img class="images" src="EnergyUse.png">
 		      	</div>
 		      	<div class="col-sm-6">
-		      		<p class="read-more-wrap" style="text-align: center;">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-			  		minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat 
-					cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do 
-					eiusmod tempor
+		      		<h3 class="subjHeader">Energy Use</h3>
+		      		<p class="read-more-wrap theText" style="text-align: center;">
+						<br>
+		      			Globally, the use of energy represents by far the largest source of greenhouse gas emissions from human activities. About two thirds of global greenhouse gas emissions are linked to burning fossil fuels for energy to be used for heating, electricity, transport and industry. In Europe, too, the energy processes are the largest emitter of greenhouse 
+
 					<span id="dots3">...</span>
-					<span id="more3">
+					<span id="more3" style="display:none;">
 						
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-					nisi ut aliquip ex ea commodo consequat  exercitation ullamco laboris 
-					nisi ut aliquip ex ea commodo consequa.
+					gases, being responsible for 78 % of total EU emissions in 2015.
+					Our use and production of energy have a massive impact on the climate and the converse is also increasingly true. Climate change can alter our energy generation potential and energy needs. For example, changes to the water cycle have an impact on hydropower, and warmer temperatures increase the energy demand for cooling in the summer, while decreasing the demand for heating in the winter.
 
 					</span>
 					</p>
 
-					<div style="text-align:center;"><button type="button" onclick="myFunction3()" id="myBtn3" class="btn btn-info wbtns">Read more</button></div>
+					<div style="text-align:center;"><button type="button" id="myBtn" class="btn wbtns" onClick="myFunction(this.id,'dots3','more3');">READ MORE</button></div>
 
 					
 		      	</div> 
 		      </div>
+
+
     	
     </div>
 
-
+	<div class="col-sm-1 sidenav "></div>
 	</div>
 
 
 </div>
 
-
-<br><br><br><br><br>
 	    
 	
 
 	<!-- Footer -->
 	<footer class="page-footer font-small blue pt-4">
 		<div class="container-fluid text-center text-md-left">
-		  <div class="row ">
+		  <div class="row">
 			<hr class="clearfix w-100 d-md-none pb-3">
 			<div class="col-md-12 mb-md-0 mb-3">
 			  <h5 class="text-uppercase orange">Links</h5>
@@ -229,50 +216,18 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 	<script type="text/javascript">
-		function myFunction1() {
-		  var dots = document.getElementById("dots1");
-		  var moreText = document.getElementById("more1");
-		  var btnText = document.getElementById("myBtn1");
+		function myFunction(myBtn,dots,more) {
+		  var btnText = document.getElementById(myBtn);
+		  var dots = document.getElementById(dots);
+		  var moreText = document.getElementById(more);
 
 		  if (dots.style.display === "none") {
 		    dots.style.display = "inline";
-		    btnText.innerHTML = "Read more"; 
+		    btnText.innerHTML = "READ MORE"; 
 		    moreText.style.display = "none";
 		  } else {
 		    dots.style.display = "none";
-		    btnText.innerHTML = "Read less"; 
-		    moreText.style.display = "inline";
-		  }
-		}
-
-		function myFunction2() {
-		  var dots = document.getElementById("dots2");
-		  var moreText = document.getElementById("more2");
-		  var btnText = document.getElementById("myBtn2");
-
-		  if (dots.style.display === "none") {
-		    dots.style.display = "inline";
-		    btnText.innerHTML = "Read more"; 
-		    moreText.style.display = "none";
-		  } else {
-		    dots.style.display = "none";
-		    btnText.innerHTML = "Read less"; 
-		    moreText.style.display = "inline";
-		  }
-		}
-
-		function myFunction3() {
-		  var dots = document.getElementById("dots3");
-		  var moreText = document.getElementById("more3");
-		  var btnText = document.getElementById("myBtn3");
-
-		  if (dots.style.display === "none") {
-		    dots.style.display = "inline";
-		    btnText.innerHTML = "Read more"; 
-		    moreText.style.display = "none";
-		  } else {
-		    dots.style.display = "none";
-		    btnText.innerHTML = "Read less"; 
+		    btnText.innerHTML = "READ LESS"; 
 		    moreText.style.display = "inline";
 		  }
 		}
