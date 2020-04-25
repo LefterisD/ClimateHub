@@ -52,6 +52,7 @@ body,html{
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+    background: #2F4858;
 }
 
 /*-------------------------------------Dashboard---------------------------*/
