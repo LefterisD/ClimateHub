@@ -46,7 +46,9 @@ body,html{
     color: #F6AE2D;
     background-color: #2F4858; 
 }
-
+.collapse{
+    text-align: start;
+}
 /*------------------------footer----------------------*/
 .page-footer {
 	background: #2f4858;
