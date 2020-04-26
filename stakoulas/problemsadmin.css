@@ -142,7 +142,7 @@ body,html{
 }
 
 .add:hover{
-	color: red;
+	color: #F6AE2D;
 	text-decoration: none;
 }
 
@@ -156,7 +156,7 @@ body,html{
 }
 
 .remove:hover{
-	color: red;
+	color: #F6AE2D;
 	text-decoration: none;
 }
 
@@ -171,7 +171,7 @@ body,html{
 }
 
 .edit:hover{
-	color: red;
+	color: #F6AE2D;
 	text-decoration: none;
 }
 

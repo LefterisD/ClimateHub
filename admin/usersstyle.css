@@ -2,7 +2,8 @@ body,html{
     padding: 0;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-	background: #EBEFF3;
+    background: #EBEFF3;
+    min-height: 100% !important;
 }
 /*------------------------navbar----------------------*/
 .navbar-nav {
@@ -53,6 +54,27 @@ body,html{
     outline: none;
     box-shadow: none;
     background: #2F4858;
+}
+/*------------------------footer----------------------*/
+.page-footer {
+    background: #2f4858;
+    color: white;
+    width: 100%;
+    margin-top: auto ;
+}
+.page-footer .row  {
+    text-align: center;
+}
+.footer-links {
+    color: #ffffff;
+}
+.footer-links:hover {
+    color: #F6AE2D;
+    text-decoration: none;
+}
+
+.orange{
+    color: #F6AE2D;
 }
 
 /*-------------------------------------Dashboard---------------------------*/
@@ -250,7 +272,9 @@ input[name=search]:focus{
     padding: 0;
 }
 
-
+.container-fluid{
+    min-height: 100%;
+}
 
 /*-----------------------test--------------------*/
 
@@ -263,7 +287,6 @@ input[name=search]:focus{
 
 .box3{
     padding: 0;
-    
 }
 
 #uppertable{

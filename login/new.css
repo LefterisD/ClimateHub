@@ -110,8 +110,8 @@ a {
         min-height: 100%;
         float: left;
         //background-image: url('protest.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        //background-size: cover;
+        //background-repeat: no-repeat;
     }
     #login img {
         width: 25%;
