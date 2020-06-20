@@ -209,6 +209,9 @@ button:focus{
     color: #F6AE2D;
 }
 /*--------------------------form---------------------*/
+#input[name=query]{
+    height: 70px;
+}
 #hide{
     display: none;
 }
